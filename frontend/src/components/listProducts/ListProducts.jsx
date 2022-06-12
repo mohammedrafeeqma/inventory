@@ -3,8 +3,8 @@ import { Container, Table } from "react-bootstrap";
 import useFetch from "../../hooks/useFetch";
 
 function ListProducts() {
-  const [data, loading] = useFetch("http://rafeeqma.tk/api/");
-  console.log(data);
+  const [data, loading,error] = useFetch("https://rafeeqma.tk/api/");
+  console.log(data,error);
   return (
     <Container className="p-1 p-md-5 table-responsive-sm">
       {loading && <h1>loading...</h1>}
