@@ -33,7 +33,7 @@ function RemoveProducts() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(array);
-    const res = await axios.put("http://rafeeqma.tk/api/", array);
+    const res = await axios.put("https://rafeeqma.tk/api/", array);
     if (res) {
       window.location.reload();
     }
