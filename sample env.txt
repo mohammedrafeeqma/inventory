@@ -1,0 +1,2 @@
+MONGO_URL = mongodb+srv://rafeeq:0Tib2xkxW8pcBwDB@cluster0.eqvub.mongodb.net/inventory?retryWrites=true&w=majority
+NODE_ENV = 'production'

@@ -78,6 +78,7 @@ function RemoveProducts() {
                     <Form.Control
                       name="productCode"
                       type="text"
+                      value={array[i].productCode}
                       onChange={(e) => handleOnchange(e, i)}
                       required
                     />
@@ -94,6 +95,7 @@ function RemoveProducts() {
                       min={0}
                       name="quantity"
                       type="number"
+                      value={array[i].quantity}
                       onChange={(e) => handleOnchange(e, i)}
                     />
                   </Form.Group>

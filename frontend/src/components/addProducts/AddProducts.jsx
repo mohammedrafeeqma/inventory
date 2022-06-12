@@ -80,6 +80,7 @@ function AddProducts() {
                     <Form.Control
                       name="productCode"
                       type="number"
+                      value={array[i].productCode}
                       onChange={(e) => handleOnchange(e, i)}
                       required
                     />
@@ -93,6 +94,7 @@ function AddProducts() {
                     <Form.Label>Product Name</Form.Label>
                     <Form.Control
                       name="productName"
+                      value={array[i].productName}
                       onChange={(e) => handleOnchange(e, i)}
                     />
                   </Form.Group>
@@ -105,6 +107,7 @@ function AddProducts() {
                       min={0}
                       name="quantity"
                       type="number"
+                      value={array[i].quantity}
                       onChange={(e) => handleOnchange(e, i)}
                     />
                   </Form.Group>
