@@ -3,7 +3,7 @@ import { Container, Table } from "react-bootstrap";
 import useFetch from "../../hooks/useFetch";
 
 function ListProducts() {
-  const [data, loading] = useFetch("http://127.0.0.1:3001/api/");
+  const [data, loading] = useFetch("http://rafeeqma.tk/api/");
   console.log(data);
   return (
     <Container className="p-1 p-md-5 table-responsive-sm">
