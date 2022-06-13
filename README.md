@@ -1,4 +1,5 @@
 # inventory
+### https://rafeeqma.tk/
 # to run
 ### 1. npm clone https://github.com/mohammedrafeeqma/inventory.git
 ### 2. cd inventory
